@@ -1,0 +1,37 @@
+:root {
+  --colors-heading: rgba(30, 14, 98, 1);
+  --colors-text: rgba(21, 20, 57, 0.4);
+  --colors-grey: rgba(235, 234, 237, 1);
+  --action-secondary: rgba(72, 43, 231, 1);
+  --colors-white: rgba(255, 255, 255, 1);
+  --text-paragraph-font-family: "DM Sans", Helvetica;
+  --text-paragraph-font-weight: 400;
+  --text-paragraph-font-size: 16px;
+  --text-paragraph-letter-spacing: 0px;
+  --text-paragraph-line-height: 26px;
+  --text-paragraph-font-style: normal;
+  --buttons-small-font-family: "DM Sans", Helvetica;
+  --buttons-small-font-weight: 500;
+  --buttons-small-font-size: 16px;
+  --buttons-small-letter-spacing: 0px;
+  --buttons-small-line-height: 22px;
+  --buttons-small-font-style: normal;
+  --heading-h5-lead-font-family: "DM Sans", Helvetica;
+  --heading-h5-lead-font-weight: 500;
+  --heading-h5-lead-font-size: 22px;
+  --heading-h5-lead-letter-spacing: 0px;
+  --heading-h5-lead-line-height: 32px;
+  --heading-h5-lead-font-style: normal;
+  --text-article-font-family: "DM Sans", Helvetica;
+  --text-article-font-weight: 500;
+  --text-article-font-size: 18px;
+  --text-article-letter-spacing: 0px;
+  --text-article-line-height: 28px;
+  --text-article-font-style: normal;
+  --text-label-font-family: "DM Sans", Helvetica;
+  --text-label-font-weight: 700;
+  --text-label-font-size: 14px;
+  --text-label-letter-spacing: 2px;
+  --text-label-line-height: 26px;
+  --text-label-font-style: normal;
+}

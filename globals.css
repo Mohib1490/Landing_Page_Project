@@ -1,0 +1,1604 @@
+/* File name globals.css */
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Abel:400|Poppins:500,400,900|DM+Sans:var(--text-article-font-weight),var(--text-label-font-weight),var(--heading-h5-lead-font-weight),var(--buttons-small-font-weight),var(--text-paragraph-font-weight)|Roboto:400");
+
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/*-----another file style.css-------*/
+.landing-page {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.landing-page .overlap-wrapper {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 4541px;
+}
+
+.landing-page .overlap {
+  position: relative;
+  height: 4541px;
+  background-color: #ffffff;
+}
+
+.landing-page .group {
+  position: absolute;
+  width: 492px;
+  height: 77px;
+  top: 3663px;
+  left: 475px;
+}
+
+.landing-page .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 196px;
+  font-family: "Abel", Helvetica;
+  font-weight: 400;
+  color: #8a898e;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 6.30px;
+  line-height: 28.5px;
+  white-space: nowrap;
+}
+
+.landing-page .div {
+  top: 48px;
+  left: 0;
+  font-family: "Abel", Helvetica;
+  font-weight: 400;
+  color: #0b1b35;
+  font-size: 52px;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: 28.5px;
+}
+
+.landing-page .overlap-group {
+  position: absolute;
+  width: 1305px;
+  height: 1393px;
+  top: 123px;
+  left: 135px;
+}
+
+.landing-page .learn-more {
+  position: absolute;
+  width: 171px;
+  height: 60px;
+  top: 487px;
+  left: 190px;
+}
+
+.landing-page .text-wrapper-2 {
+  position: absolute;
+  width: 94px;
+  top: 15px;
+  left: 75px;
+  font-family: "Abel", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28.5px;
+}
+
+.landing-page .learn-more-icon {
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  top: 0;
+  left: 0;
+}
+
+.landing-page .overlap-group-2 {
+  position: relative;
+  height: 60px;
+}
+
+.landing-page .iconly-bold-play {
+  width: 40px;
+  height: 40px;
+  top: 10px;
+  left: 10px;
+  background-image: url(https://c.animaapp.com/ma0twx198pozmJ/img/play.png);
+  position: absolute;
+  background-size: 100% 100%;
+}
+
+.landing-page .subtract {
+  position: absolute;
+  width: 30px;
+  height: 60px;
+  top: 0;
+  left: 0;
+}
+
+.landing-page .get-started-button {
+  all: unset;
+  box-sizing: border-box;
+  width: 164px;
+  height: 49px;
+  top: 492px;
+  position: absolute;
+  left: 0;
+}
+
+.landing-page .div-wrapper {
+  position: relative;
+  width: 162px;
+  height: 49px;
+  background-color: #ff6600;
+  border-radius: 10px;
+}
+
+.landing-page .text-wrapper-3 {
+  position: absolute;
+  width: 94px;
+  top: 11px;
+  left: 34px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 28.5px;
+}
+
+.landing-page .overlap-2 {
+  position: absolute;
+  width: 1305px;
+  height: 1393px;
+  top: 0;
+  left: 0;
+}
+
+.landing-page .text-content {
+  position: absolute;
+  width: 657px;
+  height: 338px;
+  top: 88px;
+  left: 0;
+}
+
+.landing-page .we-boost-growth-for {
+  position: absolute;
+  width: 653px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 900;
+  color: #0b1b35;
+  font-size: 70px;
+  letter-spacing: 0;
+  line-height: 81px;
+}
+
+.landing-page .p {
+  position: absolute;
+  width: 555px;
+  top: 276px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 28.5px;
+}
+
+.landing-page .background-data {
+  position: absolute;
+  width: 349px;
+  height: 462px;
+  top: 62px;
+  left: 499px;
+}
+
+.landing-page .group-wrapper {
+  position: absolute;
+  width: 217px;
+  height: 73px;
+  top: 389px;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow:
+    0px 2.77px 2.21px #00000005, 0px 6.65px 5.32px #00000007, 0px 12.52px 10.02px #00000009, 0px 22.34px 17.87px #0000000b, 0px 41.78px 33.42px #0000000d, 0px 100px 80px #00000012;
+}
+
+.landing-page .group-2 {
+  position: relative;
+  width: 132px;
+  height: 44px;
+  top: 17px;
+  left: 15px;
+}
+
+.landing-page .text-wrapper-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Abel", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.landing-page .group-3 {
+  position: absolute;
+  width: 134px;
+  height: 20px;
+  top: 24px;
+  left: 0;
+}
+
+.landing-page .text-wrapper-5 {
+  position: absolute;
+  top: 2px;
+  left: 22px;
+  font-family: "Abel", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.landing-page .text-wrapper-6 {
+  position: absolute;
+  top: 2px;
+  left: 47px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #8a898e;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.landing-page .vector {
+  position: absolute;
+  width: 14px;
+  height: 13px;
+  top: 0;
+  left: 0;
+}
+
+.landing-page .group-4 {
+  position: absolute;
+  width: 275px;
+  height: 73px;
+  top: 0;
+  left: 74px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow:
+    0px 2.77px 2.21px #00000005, 0px 6.65px 5.32px #00000007, 0px 12.52px 10.02px #00000009, 0px 22.34px 17.87px #0000000b, 0px 41.78px 33.42px #0000000d, 0px 100px 80px #00000012;
+}
+
+.landing-page .group-5 {
+  position: absolute;
+  width: 140px;
+  height: 44px;
+  top: 17px;
+  left: 73px;
+}
+
+.landing-page .group-6 {
+  position: absolute;
+  width: 142px;
+  height: 20px;
+  top: 24px;
+  left: 0;
+}
+
+.landing-page .iconly-bold-activity {
+  width: 40px;
+  height: 40px;
+  top: 16px;
+  left: 15px;
+  background-image: url(https://c.animaapp.com/ma0twx198pozmJ/img/activity.png);
+  position: absolute;
+  background-size: 100% 100%;
+}
+
+.landing-page .img {
+  position: absolute;
+  width: 754px;
+  height: 804px;
+  top: 0;
+  left: 551px;
+}
+
+.landing-page .group-7 {
+  position: absolute;
+  width: 1170px;
+  height: 693px;
+  top: 700px;
+  left: 0;
+}
+
+.landing-page .group-8 {
+  position: absolute;
+  width: 411px;
+  height: 77px;
+  top: 0;
+  left: 382px;
+}
+
+.landing-page .text-wrapper-7 {
+  position: absolute;
+  top: 0;
+  left: 160px;
+  font-family: "Abel", Helvetica;
+  font-weight: 400;
+  color: #8a898e;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 6.30px;
+  line-height: 28.5px;
+  white-space: nowrap;
+}
+
+.landing-page .overlap-3 {
+  position: absolute;
+  width: 352px;
+  height: 508px;
+  top: 185px;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 28px;
+  box-shadow:
+    0px 2.77px 2.21px #00000005, 0px 6.65px 5.32px #00000007, 0px 12.52px 10.02px #00000009, 0px 22.34px 17.87px #0000000b, 0px 41.78px 33.42px #0000000d, 0px 100px 80px #00000012;
+}
+
+.landing-page .iconly-bold-activity-2 {
+  position: absolute;
+  width: 76px;
+  height: 76px;
+  top: 31px;
+  left: 138px;
+  background-image: url(https://c.animaapp.com/ma0twx198pozmJ/img/activity-1.png);
+  background-size: 100% 100%;
+}
+
+.landing-page .group-9 {
+  position: absolute;
+  width: 274px;
+  height: 334px;
+  top: 148px;
+  left: 41px;
+}
+
+.landing-page .text-wrapper-8 {
+  position: absolute;
+  top: 0;
+  left: 33px;
+  font-family: "Abel", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28.5px;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-9 {
+  position: absolute;
+  width: 270px;
+  top: 61px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28.5px;
+}
+
+.landing-page .button {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  width: 162px;
+  height: 68px;
+  top: 266px;
+  left: 54px;
+}
+
+.landing-page .overlap-group-wrapper {
+  width: 164px;
+  height: 68px;
+}
+
+.landing-page .overlap-group-3 {
+  position: relative;
+  width: 162px;
+  height: 68px;
+}
+
+.landing-page .rectangle {
+  position: absolute;
+  width: 162px;
+  height: 49px;
+  top: 0;
+  left: 0;
+  background-color: #ff6600;
+  border-radius: 10px;
+}
+
+.landing-page .text-wrapper-10 {
+  position: absolute;
+  width: 90px;
+  top: 11px;
+  left: 36px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28.5px;
+}
+
+.landing-page .overlap-4 {
+  position: absolute;
+  width: 352px;
+  height: 508px;
+  top: 185px;
+  left: 409px;
+  background-color: #ffffff;
+  border-radius: 28px;
+  box-shadow:
+    0px 2.77px 2.21px #00000005, 0px 6.65px 5.32px #00000007, 0px 12.52px 10.02px #00000009, 0px 22.34px 17.87px #0000000b, 0px 41.78px 33.42px #0000000d, 0px 100px 80px #00000012;
+}
+
+.landing-page .iconly-bold-video {
+  width: 76px;
+  height: 57px;
+  top: 40px;
+  left: 138px;
+  background-image: url(https://c.animaapp.com/ma0twx198pozmJ/img/video.png);
+  position: absolute;
+  background-size: 100% 100%;
+}
+
+.landing-page .text-wrapper-11 {
+  left: 46px;
+  font-family: "Abel", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28.5px;
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+}
+
+.landing-page .overlap-5 {
+  position: absolute;
+  width: 352px;
+  height: 508px;
+  top: 185px;
+  left: 818px;
+  background-color: #ffffff;
+  border-radius: 28px;
+  box-shadow:
+    0px 2.77px 2.21px #00000005, 0px 6.65px 5.32px #00000007, 0px 12.52px 10.02px #00000009, 0px 22.34px 17.87px #0000000b, 0px 41.78px 33.42px #0000000d, 0px 100px 80px #00000012;
+}
+
+.landing-page .iconly-bold-chart {
+  width: 76px;
+  height: 76px;
+  top: 31px;
+  left: 138px;
+  background-image: url(https://c.animaapp.com/ma0twx198pozmJ/img/chart.png);
+  position: absolute;
+  background-size: 100% 100%;
+}
+
+.landing-page .text-wrapper-12 {
+  position: absolute;
+  top: 0;
+  left: 19px;
+  font-family: "Abel", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28.5px;
+  white-space: nowrap;
+}
+
+.landing-page .header {
+  position: absolute;
+  width: 1170px;
+  height: 49px;
+  top: 48px;
+  left: 135px;
+  background-color: transparent;
+}
+
+.landing-page .logo {
+  position: absolute;
+  width: 240px;
+  height: 49px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.landing-page .group-10 {
+  position: absolute;
+  width: 816px;
+  height: 49px;
+  top: 0;
+  left: 354px;
+}
+
+.landing-page .navbar {
+  position: absolute;
+  width: 399px;
+  height: 29px;
+  top: 10px;
+  left: 0;
+}
+
+.landing-page .text-wrapper-13 {
+  left: 0;
+  font-family: "Abel", Helvetica;
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28.5px;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-14 {
+  position: absolute;
+  top: 0;
+  left: 87px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28.5px;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-15 {
+  position: absolute;
+  top: 0;
+  left: 199px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28.5px;
+  white-space: nowrap;
+}
+
+.landing-page .text-wrapper-16 {
+  left: 307px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  position: absolute;
+  top: 0;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28.5px;
+  white-space: nowrap;
+}
+
+.landing-page .group-11 {
+  position: absolute;
+  width: 190px;
+  height: 49px;
+  top: 0;
+  left: 628px;
+}
+
+.landing-page .text-wrapper-17 {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28.5px;
+  white-space: nowrap;
+}
+
+.landing-page .group-12 {
+  position: absolute;
+  width: 121px;
+  height: 49px;
+  top: 0;
+  left: 69px;
+}
+
+.landing-page .overlap-group-4 {
+  position: relative;
+  width: 119px;
+  height: 49px;
+  background-color: #ff6600;
+  border-radius: 10px;
+}
+
+.landing-page .text-wrapper-18 {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28.5px;
+  white-space: nowrap;
+}
+
+.landing-page .socials {
+  position: absolute;
+  width: 117px;
+  height: 27px;
+  top: 4476px;
+  left: 1179px;
+}
+
+.landing-page .fa-google-plus {
+  position: absolute;
+  top: 0;
+  left: 102px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--colors-heading);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.landing-page .fa-facebook-square {
+  position: absolute;
+  top: 0;
+  left: 53px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--colors-heading);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.landing-page .fa-twitter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--colors-heading);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.landing-page .startup-framework-co {
+  position: absolute;
+  width: 969px;
+  top: 4473px;
+  left: 136px;
+  font-family: var(--text-paragraph-font-family);
+  font-weight: var(--text-paragraph-font-weight);
+  color: var(--colors-text);
+  font-size: var(--text-paragraph-font-size);
+  letter-spacing: var(--text-paragraph-letter-spacing);
+  line-height: var(--text-paragraph-line-height);
+  font-style: var(--text-paragraph-font-style);
+}
+
+.landing-page .divider {
+  position: absolute;
+  width: 1172px;
+  height: 2px;
+  top: 4432px;
+  left: 134px;
+}
+
+.landing-page .copyright {
+  position: absolute;
+  width: 572px;
+  height: 27px;
+  top: 4374px;
+  left: 135px;
+}
+
+.landing-page .element-designmodo-a {
+  position: absolute;
+  width: 369px;
+  top: 1px;
+  left: 201px;
+  font-family: var(--text-paragraph-font-family);
+  font-weight: var(--text-paragraph-font-weight);
+  color: var(--colors-heading);
+  font-size: var(--text-paragraph-font-size);
+  letter-spacing: var(--text-paragraph-letter-spacing);
+  line-height: var(--text-paragraph-line-height);
+  font-style: var(--text-paragraph-font-style);
+}
+
+.landing-page .logo-2 {
+  position: absolute;
+  width: 111px;
+  height: 23px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.landing-page .menu {
+  position: absolute;
+  width: 465px;
+  height: 26px;
+  top: 4375px;
+  left: 846px;
+}
+
+.landing-page .text-wrapper-19 {
+  position: absolute;
+  top: 0;
+  left: 416px;
+  font-family: var(--text-paragraph-font-family);
+  font-weight: var(--text-paragraph-font-weight);
+  color: var(--colors-heading);
+  font-size: var(--text-paragraph-font-size);
+  letter-spacing: var(--text-paragraph-letter-spacing);
+  line-height: var(--text-paragraph-line-height);
+  white-space: nowrap;
+  font-style: var(--text-paragraph-font-style);
+}
+
+.landing-page .text-wrapper-20 {
+  position: absolute;
+  top: 0;
+  left: 329px;
+  font-family: var(--text-paragraph-font-family);
+  font-weight: var(--text-paragraph-font-weight);
+  color: var(--colors-heading);
+  font-size: var(--text-paragraph-font-size);
+  letter-spacing: var(--text-paragraph-letter-spacing);
+  line-height: var(--text-paragraph-line-height);
+  white-space: nowrap;
+  font-style: var(--text-paragraph-font-style);
+}
+
+.landing-page .text-wrapper-21 {
+  position: absolute;
+  top: 0;
+  left: 237px;
+  font-family: var(--text-paragraph-font-family);
+  font-weight: var(--text-paragraph-font-weight);
+  color: var(--colors-heading);
+  font-size: var(--text-paragraph-font-size);
+  letter-spacing: var(--text-paragraph-letter-spacing);
+  line-height: var(--text-paragraph-line-height);
+  white-space: nowrap;
+  font-style: var(--text-paragraph-font-style);
+}
+
+.landing-page .text-wrapper-22 {
+  position: absolute;
+  top: 0;
+  left: 101px;
+  font-family: var(--text-paragraph-font-family);
+  font-weight: var(--text-paragraph-font-weight);
+  color: var(--colors-heading);
+  font-size: var(--text-paragraph-font-size);
+  letter-spacing: var(--text-paragraph-letter-spacing);
+  line-height: var(--text-paragraph-line-height);
+  white-space: nowrap;
+  font-style: var(--text-paragraph-font-style);
+}
+
+.landing-page .text-wrapper-23 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: var(--text-paragraph-font-family);
+  font-weight: var(--text-paragraph-font-weight);
+  color: var(--colors-heading);
+  font-size: var(--text-paragraph-font-size);
+  letter-spacing: var(--text-paragraph-letter-spacing);
+  line-height: var(--text-paragraph-line-height);
+  white-space: nowrap;
+  font-style: var(--text-paragraph-font-style);
+}
+
+.landing-page .group-13 {
+  position: absolute;
+  width: 302px;
+  height: 77px;
+  top: 3053px;
+  left: 571px;
+}
+
+.landing-page .text-wrapper-24 {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  font-family: "Abel", Helvetica;
+  font-weight: 400;
+  color: #8a898e;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 6.30px;
+  line-height: 28.5px;
+  white-space: nowrap;
+}
+
+.landing-page .group-14 {
+  position: absolute;
+  width: 1170px;
+  height: 386px;
+  top: 1697px;
+  left: 135px;
+}
+
+.landing-page .video-player {
+  width: 688px;
+  height: 386px;
+  left: 482px;
+  background-image: url(https://c.animaapp.com/ma0twx198pozmJ/img/photo.png);
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+}
+
+.landing-page .icon-fill {
+  position: relative;
+  width: 84px;
+  height: 84px;
+  top: 151px;
+  left: 302px;
+  background-color: var(--action-secondary);
+  border-radius: 100px;
+}
+
+.landing-page .icon {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 35px;
+  left: 36px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--colors-white);
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.landing-page .small-dark-outline {
+  position: absolute;
+  width: 133px;
+  height: 48px;
+  top: 312px;
+  left: 0;
+  border-radius: 100px;
+  border: 2px solid;
+  border-color: #eaeaed;
+}
+
+.landing-page .sign-up {
+  position: absolute;
+  height: 22px;
+  top: 11px;
+  left: 36px;
+  font-family: var(--buttons-small-font-family);
+  font-weight: var(--buttons-small-font-weight);
+  color: var(--colors-heading);
+  font-size: var(--buttons-small-font-size);
+  text-align: center;
+  letter-spacing: var(--buttons-small-letter-spacing);
+  line-height: var(--buttons-small-line-height);
+  white-space: nowrap;
+  font-style: var(--buttons-small-font-style);
+}
+
+.landing-page .title {
+  position: absolute;
+  width: 327px;
+  height: 223px;
+  top: 17px;
+  left: 0;
+}
+
+.landing-page .many-useful-compone {
+  position: absolute;
+  width: 304px;
+  top: 0;
+  left: 0;
+  font-family: var(--heading-h5-lead-font-family);
+  font-weight: var(--heading-h5-lead-font-weight);
+  color: var(--colors-heading);
+  font-size: var(--heading-h5-lead-font-size);
+  letter-spacing: var(--heading-h5-lead-letter-spacing);
+  line-height: var(--heading-h5-lead-line-height);
+  font-style: var(--heading-h5-lead-font-style);
+}
+
+.landing-page .startup-framework-co-2 {
+  position: absolute;
+  width: 322px;
+  top: 98px;
+  left: 1px;
+  font-family: var(--text-paragraph-font-family);
+  font-weight: var(--text-paragraph-font-weight);
+  color: var(--colors-text);
+  font-size: var(--text-paragraph-font-size);
+  letter-spacing: var(--text-paragraph-letter-spacing);
+  line-height: var(--text-paragraph-line-height);
+  font-style: var(--text-paragraph-font-style);
+}
+
+.landing-page .group-15 {
+  position: absolute;
+  width: 970px;
+  height: 682px;
+  top: 2229px;
+  left: 235px;
+}
+
+.landing-page .group-16 {
+  position: absolute;
+  width: 524px;
+  height: 77px;
+  top: 0;
+  left: 225px;
+}
+
+.landing-page .text-wrapper-25 {
+  position: absolute;
+  top: 0;
+  left: 192px;
+  font-family: "Abel", Helvetica;
+  font-weight: 400;
+  color: #8a898e;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 6.30px;
+  line-height: 28.5px;
+  white-space: nowrap;
+}
+
+.landing-page .group-17 {
+  position: absolute;
+  width: 970px;
+  height: 504px;
+  top: 178px;
+  left: 0;
+}
+
+.landing-page .testimonial {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 470px;
+  height: 237px;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: #ffffff26;
+}
+
+.landing-page .text {
+  position: absolute;
+  width: 311px;
+  height: 179px;
+  top: 33px;
+  left: 133px;
+}
+
+.landing-page .prototyping-in-the-b {
+  position: absolute;
+  width: 307px;
+  top: 0;
+  left: 0;
+  font-family: var(--text-article-font-family);
+  font-weight: var(--text-article-font-weight);
+  color: #0b1b35;
+  font-size: var(--text-article-font-size);
+  letter-spacing: var(--text-article-letter-spacing);
+  line-height: var(--text-article-line-height);
+  font-style: var(--text-article-font-style);
+}
+
+.landing-page .timothy-nathan {
+  position: absolute;
+  top: 153px;
+  left: 0;
+  opacity: 0.3;
+  font-family: var(--text-label-font-family);
+  font-weight: var(--text-label-font-weight);
+  color: #0b1b35;
+  font-size: var(--text-label-font-size);
+  letter-spacing: var(--text-label-letter-spacing);
+  line-height: var(--text-label-line-height);
+  white-space: nowrap;
+  font-style: var(--text-label-font-style);
+}
+
+.landing-page .userpic {
+  background-image: url(https://c.animaapp.com/ma0twx198pozmJ/img/mask.png);
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 34px;
+  left: 33px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.landing-page .testimonial-2 {
+  top: 0;
+  left: 500px;
+  position: absolute;
+  width: 470px;
+  height: 237px;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: #ffffff26;
+}
+
+.landing-page .userpic-2 {
+  background-image: url(https://c.animaapp.com/ma0twx198pozmJ/img/mask-1.png);
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 34px;
+  left: 33px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.landing-page .testimonial-3 {
+  top: 267px;
+  left: 0;
+  position: absolute;
+  width: 470px;
+  height: 237px;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: #ffffff26;
+}
+
+.landing-page .userpic-3 {
+  background-image: url(https://c.animaapp.com/ma0twx198pozmJ/img/mask-2.png);
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 34px;
+  left: 33px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.landing-page .testimonial-4 {
+  top: 267px;
+  left: 500px;
+  position: absolute;
+  width: 470px;
+  height: 237px;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: #ffffff26;
+}
+
+.landing-page .userpic-4 {
+  background-image: url(https://c.animaapp.com/ma0twx198pozmJ/img/mask-3.png);
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 34px;
+  left: 33px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.landing-page .group-18 {
+  position: absolute;
+  width: 1172px;
+  height: 367px;
+  top: 3841px;
+  left: 135px;
+}
+
+.landing-page .frame {
+  position: absolute;
+  width: 421px;
+  height: 367px;
+  top: 0;
+  left: 0;
+}
+
+.landing-page .group-19 {
+  position: relative;
+  height: 367px;
+}
+
+.landing-page .group-20 {
+  position: absolute;
+  width: 308px;
+  height: 322px;
+  top: 0;
+  left: 56px;
+}
+
+.landing-page .overlap-group-5 {
+  position: relative;
+  height: 322px;
+}
+
+.landing-page .group-21 {
+  position: absolute;
+  width: 293px;
+  height: 322px;
+  top: 0;
+  left: 6px;
+}
+
+.landing-page .group-22 {
+  position: absolute;
+  width: 70px;
+  height: 122px;
+  top: 176px;
+  left: 238px;
+  opacity: 0.2;
+  background-image: url(https://c.animaapp.com/ma0twx198pozmJ/img/rectangle.png);
+  background-size: 100% 100%;
+}
+
+.landing-page .group-23 {
+  position: absolute;
+  width: 70px;
+  height: 122px;
+  top: 176px;
+  left: 0;
+  opacity: 0.1;
+  background-image: url(https://c.animaapp.com/ma0twx198pozmJ/img/rectangle-1.png);
+  background-size: 100% 100%;
+}
+
+.landing-page .group-24 {
+  position: absolute;
+  width: 126px;
+  height: 25px;
+  top: 173px;
+  left: 87px;
+  opacity: 0.4;
+  background-image: url(https://c.animaapp.com/ma0twx198pozmJ/img/rectangle-2.png);
+  background-size: 100% 100%;
+}
+
+.landing-page .vector-2 {
+  position: absolute;
+  width: 421px;
+  height: 29px;
+  top: 338px;
+  left: 0;
+}
+
+.landing-page .group-25 {
+  position: absolute;
+  width: 702px;
+  height: 77px;
+  top: 127px;
+  left: 470px;
+}
+
+.landing-page .overlap-6 {
+  position: relative;
+  width: 700px;
+  height: 77px;
+  background-color: #ffffff;
+  border-radius: 49px;
+  box-shadow:
+    0px 2.77px 2.21px #00000005, 0px 6.65px 5.32px #00000007, 0px 12.52px 10.02px #00000009, 0px 22.34px 17.87px #0000000b, 0px 41.78px 33.42px #0000000d, 0px 100px 80px #00000012;
+}
+
+.landing-page .text-wrapper-26 {
+  position: absolute;
+  top: 24px;
+  left: 67px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28.5px;
+  white-space: nowrap;
+}
+
+.landing-page .group-26 {
+  position: absolute;
+  width: 702px;
+  height: 68px;
+  top: 255px;
+  left: 470px;
+}
+
+.landing-page .overlap-7 {
+  position: relative;
+  height: 68px;
+}
+
+.landing-page .text-wrapper-27 {
+  position: absolute;
+  width: 94px;
+  top: 11px;
+  left: 310px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28.5px;
+}
+
+.landing-page .get-started-button-2 {
+  width: 702px;
+  height: 68px;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+
+.landing-page .overlap-group-6 {
+  position: relative;
+  width: 700px;
+  height: 68px;
+}
+
+.landing-page .rectangle-2 {
+  position: absolute;
+  width: 700px;
+  height: 49px;
+  top: 0;
+  left: 0;
+  background-color: #ff6600;
+  border-radius: 10px;
+}
+
+.landing-page .text-wrapper-28 {
+  width: 202px;
+  top: 11px;
+  left: 249px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 18px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: 28.5px;
+}
+
+.landing-page .text-wrapper-29 {
+  position: absolute;
+  width: 684px;
+  top: 26px;
+  left: 482px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28.5px;
+}
+
+.landing-page .group-27 {
+  position: absolute;
+  width: 1170px;
+  height: 370px;
+  top: 3183px;
+  left: 135px;
+}
+
+.landing-page .members {
+  position: absolute;
+  width: 370px;
+  height: 370px;
+  top: 0;
+  left: 0;
+}
+
+.landing-page .member {
+  position: relative;
+  height: 370px;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: #eaeaed;
+}
+
+.landing-page .socials-2 {
+  position: absolute;
+  width: 367px;
+  height: 60px;
+  top: 306px;
+  left: 0;
+}
+
+.landing-page .icons-wrapper {
+  position: relative;
+  width: 369px;
+  height: 62px;
+  left: -1px;
+  background-image: url(https://c.animaapp.com/ma0twx198pozmJ/img/dividers-2.png);
+  background-size: 100% 100%;
+}
+
+.landing-page .icons {
+  position: relative;
+  width: 257px;
+  height: 38px;
+  top: 19px;
+  left: 60px;
+}
+
+.landing-page .fa-twitter-2 {
+  left: 0;
+  position: absolute;
+  top: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--colors-text);
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 38px;
+  white-space: nowrap;
+}
+
+.landing-page .fa-facebook-square-2 {
+  position: absolute;
+  top: 0;
+  left: 120px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--colors-text);
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 38px;
+  white-space: nowrap;
+}
+
+.landing-page .fa-dribbble {
+  left: 240px;
+  position: absolute;
+  top: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--colors-text);
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 38px;
+  white-space: nowrap;
+}
+
+.landing-page .text-2 {
+  position: absolute;
+  width: 149px;
+  height: 74px;
+  top: 197px;
+  left: 112px;
+}
+
+.landing-page .text-wrapper-30 {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  font-family: var(--heading-h5-lead-font-family);
+  font-weight: var(--heading-h5-lead-font-weight);
+  color: var(--colors-heading);
+  font-size: var(--heading-h5-lead-font-size);
+  text-align: center;
+  letter-spacing: var(--heading-h5-lead-letter-spacing);
+  line-height: var(--heading-h5-lead-line-height);
+  white-space: nowrap;
+  font-style: var(--heading-h5-lead-font-style);
+}
+
+.landing-page .UI-designer {
+  position: absolute;
+  top: 48px;
+  left: 18px;
+  font-family: var(--text-label-font-family);
+  font-weight: var(--text-label-font-weight);
+  color: var(--colors-text);
+  font-size: var(--text-label-font-size);
+  text-align: center;
+  letter-spacing: var(--text-label-letter-spacing);
+  line-height: var(--text-label-line-height);
+  white-space: nowrap;
+  font-style: var(--text-label-font-style);
+}
+
+.landing-page .userpic-5 {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 48px;
+  left: 123px;
+}
+
+.landing-page .member-wrapper {
+  left: 400px;
+  position: absolute;
+  width: 370px;
+  height: 370px;
+  top: 0;
+}
+
+.landing-page .overlap-group-7 {
+  position: relative;
+  width: 369px;
+  height: 62px;
+  left: -1px;
+  background-image: url(https://c.animaapp.com/ma0twx198pozmJ/img/dividers-1.png);
+  background-size: 100% 100%;
+}
+
+.landing-page .text-3 {
+  position: absolute;
+  width: 178px;
+  height: 74px;
+  top: 197px;
+  left: 97px;
+}
+
+.landing-page .UI-designer-2 {
+  left: 32px;
+  position: absolute;
+  top: 48px;
+  font-family: var(--text-label-font-family);
+  font-weight: var(--text-label-font-weight);
+  color: var(--colors-text);
+  font-size: var(--text-label-font-size);
+  text-align: center;
+  letter-spacing: var(--text-label-letter-spacing);
+  line-height: var(--text-label-line-height);
+  white-space: nowrap;
+  font-style: var(--text-label-font-style);
+}
+
+.landing-page .members-2 {
+  left: 800px;
+  position: absolute;
+  width: 370px;
+  height: 370px;
+  top: 0;
+}
+
+.landing-page .text-4 {
+  position: absolute;
+  width: 154px;
+  height: 74px;
+  top: 197px;
+  left: 108px;
+}
+
+.landing-page .vanessa-laird {
+  position: absolute;
+  top: -1px;
+  left: 23px;
+  font-family: var(--heading-h5-lead-font-family);
+  font-weight: var(--heading-h5-lead-font-weight);
+  color: var(--colors-heading);
+  font-size: var(--heading-h5-lead-font-size);
+  text-align: center;
+  letter-spacing: var(--heading-h5-lead-letter-spacing);
+  line-height: var(--heading-h5-lead-line-height);
+  white-space: nowrap;
+  font-style: var(--heading-h5-lead-font-style);
+}
+
+.landing-page .UI-designer-3 {
+  left: 0;
+  position: absolute;
+  top: 48px;
+  font-family: var(--text-label-font-family);
+  font-weight: var(--text-label-font-weight);
+  color: var(--colors-text);
+  font-size: var(--text-label-font-size);
+  text-align: center;
+  letter-spacing: var(--text-label-letter-spacing);
+  line-height: var(--text-label-line-height);
+  white-space: nowrap;
+  font-style: var(--text-label-font-style);
+}
+
+
+
+/* Another file name styleguide.css */
+:root {
+  --colors-heading: rgba(30, 14, 98, 1);
+  --colors-text: rgba(21, 20, 57, 0.4);
+  --colors-grey: rgba(235, 234, 237, 1);
+  --action-secondary: rgba(72, 43, 231, 1);
+  --colors-white: rgba(255, 255, 255, 1);
+  --text-paragraph-font-family: "DM Sans", Helvetica;
+  --text-paragraph-font-weight: 400;
+  --text-paragraph-font-size: 16px;
+  --text-paragraph-letter-spacing: 0px;
+  --text-paragraph-line-height: 26px;
+  --text-paragraph-font-style: normal;
+  --buttons-small-font-family: "DM Sans", Helvetica;
+  --buttons-small-font-weight: 500;
+  --buttons-small-font-size: 16px;
+  --buttons-small-letter-spacing: 0px;
+  --buttons-small-line-height: 22px;
+  --buttons-small-font-style: normal;
+  --heading-h5-lead-font-family: "DM Sans", Helvetica;
+  --heading-h5-lead-font-weight: 500;
+  --heading-h5-lead-font-size: 22px;
+  --heading-h5-lead-letter-spacing: 0px;
+  --heading-h5-lead-line-height: 32px;
+  --heading-h5-lead-font-style: normal;
+  --text-article-font-family: "DM Sans", Helvetica;
+  --text-article-font-weight: 500;
+  --text-article-font-size: 18px;
+  --text-article-letter-spacing: 0px;
+  --text-article-line-height: 28px;
+  --text-article-font-style: normal;
+  --text-label-font-family: "DM Sans", Helvetica;
+  --text-label-font-weight: 700;
+  --text-label-font-size: 14px;
+  --text-label-letter-spacing: 2px;
+  --text-label-line-height: 26px;
+  --text-label-font-style: normal;
+}
